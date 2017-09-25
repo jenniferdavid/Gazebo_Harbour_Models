@@ -9,7 +9,7 @@ Local Path Optimizer for an Autonomous Truck in a Harbour Scenario
 J David, R PHILIPPSEN, R VALENCIA, K Iagnemma - 11th Conference on Field and Service Robotics (FSR), Zurich 2017.
 
 [paper]: http://www.diva-portal.org/smash/get/diva2:1137701/FULLTEXT01.pdf 
-[Cargo-ANTS]: cargo-ants.eu
+[Cargo-ANTS]: https://cargo-ants.eu
 
 ## Usage:
 Keep the models along with your other Gazebo models or edit your gazebo/setup.sh to include this file location.
