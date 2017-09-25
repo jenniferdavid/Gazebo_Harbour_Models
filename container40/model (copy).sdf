@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="container40">
+        <static>true</static>
+   <link name='chassis'>
+            <pose>0 0 .1 0 0 0</pose>
+            <collision name='collision'>
+              <geometry>
+                 <mesh>
+            <uri>model://container20/CONTAINER20.dae</uri>
+            <scale>12.19 2.44 2.9</scale>
+          </mesh>
+              </geometry>
+            </collision>
+
+            <visual name='visual'>
+              <geometry>
+                <mesh>
+                  <uri>model://container20/CONTAINER20.dae</uri>
+                  <scale>12.19 2.44 2.9</scale>
+                </mesh>
+              </geometry>
+            </visual>
+          </link>
+  </model>
+</sdf>
+
+        <!-- THERE IS A BUG WITH CONTAINER40.DAE AND SO WE AARE USING CONTAINER20.DAE WITH A DIFFERENT SCALE -->

@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="container-triple-stack">
+        <static>true</static>
+   <link name='chassis'>
+            <pose>0 0 0 0 0 0</pose>
+            <collision name='collision'>
+              <geometry>
+                 <mesh>
+            <uri>model://container-triple-stack/model.dae</uri>
+          </mesh>
+              </geometry>
+            </collision>
+
+            <visual name='visual'>
+              <geometry>
+                <mesh>
+                  <uri>model://container-triple-stack/model.dae</uri>
+                </mesh>
+              </geometry>
+            </visual>
+          </link>
+  </model>
+</sdf>
