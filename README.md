@@ -2,7 +2,7 @@
 ![harbour](https://user-images.githubusercontent.com/2436747/30788495-c4d449d2-a151-11e7-81aa-798952552ec2.png)
 ##
 
-These models were created as a part of [Cargo-ANTS][cargo-ants.eu] project which required a simulation environment of a container terminal scenario.
+These models were created as a part of [Cargo-ANTS][http://cargo-ants.eu/] project which required a simulation environment of a container terminal scenario.
 So many harbour entities were created using freely available Google sketchup models like ship, idle_truck, containers, straddle_carriers, etc. Note: These models are simple sdf models and not URDF models and do not have dynamic engine.
 Feel free to use these models and please cite the following [paper]:
 Local Path Optimizer for an Autonomous Truck in a Harbour Scenario
